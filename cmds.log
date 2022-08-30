@@ -1,0 +1,16 @@
+   28  git push -u origin master
+   29  git push -u origin master
+   30  history > cmds.log
+   31  git add cmds.log
+   32  git commit -m "push command log"
+   33  cd Desktop
+   34  ls
+   35  cd cs131_ws1
+   36  git init
+   37  touch ws1.txt
+   38  ls
+   39  git status
+   40  git add ws1.txt
+   41  git commit -m "first commit"
+   42  git remote add origin https://github.com/gabriellekkim/cs131_ws1.git
+   43  git push -u origin master
